@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/brasket/static/css/main.67848140.css",
-    "main.js": "/brasket/static/js/main.677570d9.js",
-    "static/js/787.0f7dc5a1.chunk.js": "/brasket/static/js/787.0f7dc5a1.chunk.js",
+    "main.js": "/brasket/static/js/main.ab17ca9e.js",
+    "static/js/787.7edfb535.chunk.js": "/brasket/static/js/787.7edfb535.chunk.js",
     "index.html": "/brasket/index.html",
     "main.67848140.css.map": "/brasket/static/css/main.67848140.css.map",
-    "main.677570d9.js.map": "/brasket/static/js/main.677570d9.js.map",
-    "787.0f7dc5a1.chunk.js.map": "/brasket/static/js/787.0f7dc5a1.chunk.js.map"
+    "main.ab17ca9e.js.map": "/brasket/static/js/main.ab17ca9e.js.map",
+    "787.7edfb535.chunk.js.map": "/brasket/static/js/787.7edfb535.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67848140.css",
-    "static/js/main.677570d9.js"
+    "static/js/main.ab17ca9e.js"
   ]
 }
