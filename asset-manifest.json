@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/brasket/static/css/main.67848140.css",
-    "main.js": "/brasket/static/js/main.ab17ca9e.js",
-    "static/js/787.7edfb535.chunk.js": "/brasket/static/js/787.7edfb535.chunk.js",
-    "index.html": "/brasket/index.html",
-    "main.67848140.css.map": "/brasket/static/css/main.67848140.css.map",
-    "main.ab17ca9e.js.map": "/brasket/static/js/main.ab17ca9e.js.map",
-    "787.7edfb535.chunk.js.map": "/brasket/static/js/787.7edfb535.chunk.js.map"
+    "main.css": "/demo/static/css/main.fd1b24e7.css",
+    "main.js": "/demo/static/js/main.6dee011f.js",
+    "static/js/787.0f7dc5a1.chunk.js": "/demo/static/js/787.0f7dc5a1.chunk.js",
+    "static/media/Brandy_Brasket__Resume_Frontend_Engineer.pdf": "/demo/static/media/Brandy_Brasket__Resume_Frontend_Engineer.6e7bf3f5f72c892af69c.pdf",
+    "static/media/Brandy_Brasket__Cover_Letter__Frontend_Engineer.pdf": "/demo/static/media/Brandy_Brasket__Cover_Letter__Frontend_Engineer.91ebfc3c0598cf4b1d6a.pdf",
+    "index.html": "/demo/index.html",
+    "main.fd1b24e7.css.map": "/demo/static/css/main.fd1b24e7.css.map",
+    "main.6dee011f.js.map": "/demo/static/js/main.6dee011f.js.map",
+    "787.0f7dc5a1.chunk.js.map": "/demo/static/js/787.0f7dc5a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67848140.css",
-    "static/js/main.ab17ca9e.js"
+    "static/css/main.fd1b24e7.css",
+    "static/js/main.6dee011f.js"
   ]
 }
