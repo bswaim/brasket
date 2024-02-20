@@ -1,0 +1,2068 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TO-DO APP default render components 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="todo-container bg-primary-bg w-full rounded-2xl border-2 border-solid border-black p-4"
+        data-testid="todo-id"
+        id="todo-id"
+      >
+        <h1
+          class="text-center text-xl border-b-2 border-b-primary border-solid pb-2 pl-4 flex justify-between"
+        >
+          <div>
+            To-Do App
+          </div>
+          <button
+            aria-description="delete all list items"
+            data-testid="delete-all-icon"
+            id="delete-all-icon"
+            name="delete-all-icon"
+            type="button"
+            value="delete list"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-trash text-delete-color"
+              data-icon="trash"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </h1>
+        <div
+          class="mt-4"
+        >
+          <ul>
+            <li>
+              <div
+                class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+                id="list-item-cea40805-b741-4f01-82d7-765b6d143d9d"
+              >
+                <div
+                  class="flex m-2"
+                  id="checkbox-cea40805-b741-4f01-82d7-765b6d143d9d"
+                >
+                  <label
+                    aria-label="Add ability to mark all as done"
+                    id="label-cea40805-b741-4f01-82d7-765b6d143d9d"
+                  />
+                  <input
+                    aria-label="Add ability to mark all as done"
+                    aria-labelledby="label-cea40805-b741-4f01-82d7-765b6d143d9d"
+                    class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                    id="checkbox-cea40805-b741-4f01-82d7-765b6d143d9d"
+                    type="checkbox"
+                  />
+                  <div
+                    class="cursor-pointer text-left text-wrap break-words"
+                    id="list-item-text-cea40805-b741-4f01-82d7-765b6d143d9d"
+                  >
+                    Add ability to mark all as done
+                  </div>
+                </div>
+                <div
+                  class="items-end"
+                  data-testid="delete-icon"
+                  id="to-do-delete-cea40805-b741-4f01-82d7-765b6d143d9d"
+                >
+                  <button
+                    class="bold text-xl"
+                    data-testid="delete-item-icon"
+                    id="delete-item-icon"
+                    name="delete-item-icon"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-circle-minus pt-2"
+                      data-icon="circle-minus"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+                id="list-item-1533a835-e41e-4792-815a-b26f2ee04f8f"
+              >
+                <div
+                  class="flex m-2"
+                  id="checkbox-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                >
+                  <label
+                    aria-label="Add ability to customize title"
+                    id="label-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                  />
+                  <input
+                    aria-label="Add ability to customize title"
+                    aria-labelledby="label-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                    class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                    id="checkbox-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                    type="checkbox"
+                  />
+                  <div
+                    class="cursor-pointer text-left text-wrap break-words"
+                    id="list-item-text-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                  >
+                    Add ability to customize title
+                  </div>
+                </div>
+                <div
+                  class="items-end"
+                  data-testid="delete-icon"
+                  id="to-do-delete-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                >
+                  <button
+                    class="bold text-xl"
+                    data-testid="delete-item-icon"
+                    id="delete-item-icon"
+                    name="delete-item-icon"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-circle-minus pt-2"
+                      data-icon="circle-minus"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+                id="list-item-37577217-22de-4916-bda7-21f1b9317b57"
+              >
+                <div
+                  class="flex m-2"
+                  id="checkbox-37577217-22de-4916-bda7-21f1b9317b57"
+                >
+                  <label
+                    aria-label="Add drag and drop feature"
+                    id="label-37577217-22de-4916-bda7-21f1b9317b57"
+                  />
+                  <input
+                    aria-label="Add drag and drop feature"
+                    aria-labelledby="label-37577217-22de-4916-bda7-21f1b9317b57"
+                    class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                    id="checkbox-37577217-22de-4916-bda7-21f1b9317b57"
+                    type="checkbox"
+                  />
+                  <div
+                    class="cursor-pointer text-left text-wrap break-words"
+                    id="list-item-text-37577217-22de-4916-bda7-21f1b9317b57"
+                  >
+                    Add drag and drop feature
+                  </div>
+                </div>
+                <div
+                  class="items-end"
+                  data-testid="delete-icon"
+                  id="to-do-delete-37577217-22de-4916-bda7-21f1b9317b57"
+                >
+                  <button
+                    class="bold text-xl"
+                    data-testid="delete-item-icon"
+                    id="delete-item-icon"
+                    name="delete-item-icon"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-circle-minus pt-2"
+                      data-icon="circle-minus"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+                id="list-item-ab8b4a12-d78c-400f-860a-f28127884bde"
+              >
+                <div
+                  class="flex m-2"
+                  id="checkbox-ab8b4a12-d78c-400f-860a-f28127884bde"
+                >
+                  <label
+                    aria-label="Fix empty buttons and orphaned labels"
+                    id="label-ab8b4a12-d78c-400f-860a-f28127884bde"
+                  />
+                  <input
+                    aria-label="Fix empty buttons and orphaned labels"
+                    aria-labelledby="label-ab8b4a12-d78c-400f-860a-f28127884bde"
+                    class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                    id="checkbox-ab8b4a12-d78c-400f-860a-f28127884bde"
+                    type="checkbox"
+                  />
+                  <div
+                    class="cursor-pointer text-left text-wrap break-words"
+                    id="list-item-text-ab8b4a12-d78c-400f-860a-f28127884bde"
+                  >
+                    Fix empty buttons and orphaned labels
+                  </div>
+                </div>
+                <div
+                  class="items-end"
+                  data-testid="delete-icon"
+                  id="to-do-delete-ab8b4a12-d78c-400f-860a-f28127884bde"
+                >
+                  <button
+                    class="bold text-xl"
+                    data-testid="delete-item-icon"
+                    id="delete-item-icon"
+                    name="delete-item-icon"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-circle-minus pt-2"
+                      data-icon="circle-minus"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+                id="list-item-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+              >
+                <div
+                  class="flex m-2"
+                  id="checkbox-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                >
+                  <label
+                    aria-label="Add a share/print button"
+                    id="label-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                  />
+                  <input
+                    aria-label="Add a share/print button"
+                    aria-labelledby="label-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                    class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                    id="checkbox-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                    type="checkbox"
+                  />
+                  <div
+                    class="cursor-pointer text-left text-wrap break-words"
+                    id="list-item-text-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                  >
+                    Add a share/print button
+                  </div>
+                </div>
+                <div
+                  class="items-end"
+                  data-testid="delete-icon"
+                  id="to-do-delete-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                >
+                  <button
+                    class="bold text-xl"
+                    data-testid="delete-item-icon"
+                    id="delete-item-icon"
+                    name="delete-item-icon"
+                    type="button"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-circle-minus pt-2"
+                      data-icon="circle-minus"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="text-left"
+        >
+          <div
+            class="flex"
+          >
+            <button
+              aria-label="add-new-icon"
+              class="text-2xl ml-4 m-2 pt-.5 pb-1 px-2 rounded font-bold"
+              data-testid="add-new-icon"
+              id="add-new-icon"
+              name="add-new-icon"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-circle-plus "
+                data-icon="circle-plus"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 344V280H168c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V168c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H280v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+            <h2
+              class="mt-3 italic cursor-pointer"
+              data-testid="add-new-text"
+            >
+              Add new item
+            </h2>
+          </div>
+        </div>
+        <div
+          class="w-full h-2 border-b-2 border-b-primary border-dashed mb-4"
+        />
+        <h2
+          class="text-left ml-6 flex justify-between"
+        >
+          COMPLETED
+          <button
+            aria-description="delete all completed list items"
+            data-testid="delete-all-checked-icon"
+            id="delete-all-checked-icon"
+            name="delete-all-checked-icon"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-trash-can text-delete-color"
+              data-icon="trash-can"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0H284.2c12.1 0 23.2 6.8 28.6 17.7L320 32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 96 0 81.7 0 64S14.3 32 32 32h96l7.2-14.3zM32 128H416V448c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V128zm96 64c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16z"
+                fill="currentColor"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-check-double text-delete-color ml-1"
+              data-icon="check-double"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M342.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 178.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l80 80c12.5 12.5 32.8 12.5 45.3 0l160-160zm96 128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 402.7 54.6 297.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l256-256z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </h2>
+        <ul>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+              id="list-item-ffd77206-def4-48d6-9220-ad799e2a4e38"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-ffd77206-def4-48d6-9220-ad799e2a4e38"
+              >
+                <label
+                  aria-label="Make a light and dark mode"
+                  id="label-ffd77206-def4-48d6-9220-ad799e2a4e38"
+                />
+                <input
+                  aria-label="Make a light and dark mode"
+                  aria-labelledby="label-ffd77206-def4-48d6-9220-ad799e2a4e38"
+                  checked=""
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                  id="checkbox-ffd77206-def4-48d6-9220-ad799e2a4e38"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-ffd77206-def4-48d6-9220-ad799e2a4e38"
+                >
+                  Make a light and dark mode
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-ffd77206-def4-48d6-9220-ad799e2a4e38"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+              id="list-item-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+              >
+                <label
+                  aria-label="Begin todo app react demo"
+                  id="label-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+                />
+                <input
+                  aria-label="Begin todo app react demo"
+                  aria-labelledby="label-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+                  checked=""
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                  id="checkbox-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+                >
+                  Begin todo app react demo
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+              id="list-item-8010c35f-f429-4a99-9c8d-c10167e15550"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-8010c35f-f429-4a99-9c8d-c10167e15550"
+              >
+                <label
+                  aria-label="Implement undo/redo function"
+                  id="label-8010c35f-f429-4a99-9c8d-c10167e15550"
+                />
+                <input
+                  aria-label="Implement undo/redo function"
+                  aria-labelledby="label-8010c35f-f429-4a99-9c8d-c10167e15550"
+                  checked=""
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                  id="checkbox-8010c35f-f429-4a99-9c8d-c10167e15550"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-8010c35f-f429-4a99-9c8d-c10167e15550"
+                >
+                  Implement undo/redo function
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-8010c35f-f429-4a99-9c8d-c10167e15550"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+              id="list-item-52f0a6e7-fa59-4762-b191-394661d2b915"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-52f0a6e7-fa59-4762-b191-394661d2b915"
+              >
+                <label
+                  aria-label="Add functions for 'enter' keys"
+                  id="label-52f0a6e7-fa59-4762-b191-394661d2b915"
+                />
+                <input
+                  aria-label="Add functions for 'enter' keys"
+                  aria-labelledby="label-52f0a6e7-fa59-4762-b191-394661d2b915"
+                  checked=""
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                  id="checkbox-52f0a6e7-fa59-4762-b191-394661d2b915"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-52f0a6e7-fa59-4762-b191-394661d2b915"
+                >
+                  Add functions for 'enter' keys
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-52f0a6e7-fa59-4762-b191-394661d2b915"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+              id="list-item-f59dec40-1a44-49e5-ba02-9c8520e44210"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-f59dec40-1a44-49e5-ba02-9c8520e44210"
+              >
+                <label
+                  aria-label="Check tab order"
+                  id="label-f59dec40-1a44-49e5-ba02-9c8520e44210"
+                />
+                <input
+                  aria-label="Check tab order"
+                  aria-labelledby="label-f59dec40-1a44-49e5-ba02-9c8520e44210"
+                  checked=""
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                  id="checkbox-f59dec40-1a44-49e5-ba02-9c8520e44210"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-f59dec40-1a44-49e5-ba02-9c8520e44210"
+                >
+                  Check tab order
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-f59dec40-1a44-49e5-ba02-9c8520e44210"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+              id="list-item-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+              >
+                <label
+                  aria-label="Write unit tests for utils"
+                  id="label-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+                />
+                <input
+                  aria-label="Write unit tests for utils"
+                  aria-labelledby="label-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+                  checked=""
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                  id="checkbox-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+                >
+                  Write unit tests for utils
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+              id="list-item-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+              >
+                <label
+                  aria-label="Add link for resume"
+                  id="label-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+                />
+                <input
+                  aria-label="Add link for resume"
+                  aria-labelledby="label-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+                  checked=""
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                  id="checkbox-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+                >
+                  Add link for resume
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+              id="list-item-9207a974-c2b3-473c-89e3-433943fd2c10"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-9207a974-c2b3-473c-89e3-433943fd2c10"
+              >
+                <label
+                  aria-label="Add link for cover letter"
+                  id="label-9207a974-c2b3-473c-89e3-433943fd2c10"
+                />
+                <input
+                  aria-label="Add link for cover letter"
+                  aria-labelledby="label-9207a974-c2b3-473c-89e3-433943fd2c10"
+                  checked=""
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                  id="checkbox-9207a974-c2b3-473c-89e3-433943fd2c10"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-9207a974-c2b3-473c-89e3-433943fd2c10"
+                >
+                  Add link for cover letter
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-9207a974-c2b3-473c-89e3-433943fd2c10"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+              id="list-item-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+              >
+                <label
+                  aria-label="Add link for recs"
+                  id="label-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+                />
+                <input
+                  aria-label="Add link for recs"
+                  aria-labelledby="label-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+                  checked=""
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                  id="checkbox-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+                >
+                  Add link for recs
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div
+          class="flex justify-between px-4 mt-8 text-2xl bg-white rounded-b-lg"
+        >
+          <button
+            class="cursor-default"
+            data-testid="undo-icon"
+            disabled=""
+            id="undo"
+            name="undo"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-rotate-left text-gray-500"
+              data-icon="rotate-left"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M48.5 224H40c-13.3 0-24-10.7-24-24V72c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2L98.6 96.6c87.6-86.5 228.7-86.2 315.8 1c87.5 87.5 87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3c-62.2-62.2-162.7-62.5-225.3-1L185 183c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8H48.5z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button
+            class="cursor-default"
+            data-testid="redo-icon"
+            disabled=""
+            id="redo"
+            name="redo"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-rotate-right text-gray-500"
+              data-icon="rotate-right"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M463.5 224H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1c-87.5 87.5-87.5 229.3 0 316.8s229.3 87.5 316.8 0c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0c-62.5 62.5-163.8 62.5-226.3 0s-62.5-163.8 0-226.3c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="todo-container bg-primary-bg w-full rounded-2xl border-2 border-solid border-black p-4"
+      data-testid="todo-id"
+      id="todo-id"
+    >
+      <h1
+        class="text-center text-xl border-b-2 border-b-primary border-solid pb-2 pl-4 flex justify-between"
+      >
+        <div>
+          To-Do App
+        </div>
+        <button
+          aria-description="delete all list items"
+          data-testid="delete-all-icon"
+          id="delete-all-icon"
+          name="delete-all-icon"
+          type="button"
+          value="delete list"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-trash text-delete-color"
+            data-icon="trash"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </h1>
+      <div
+        class="mt-4"
+      >
+        <ul>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+              id="list-item-cea40805-b741-4f01-82d7-765b6d143d9d"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-cea40805-b741-4f01-82d7-765b6d143d9d"
+              >
+                <label
+                  aria-label="Add ability to mark all as done"
+                  id="label-cea40805-b741-4f01-82d7-765b6d143d9d"
+                />
+                <input
+                  aria-label="Add ability to mark all as done"
+                  aria-labelledby="label-cea40805-b741-4f01-82d7-765b6d143d9d"
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                  id="checkbox-cea40805-b741-4f01-82d7-765b6d143d9d"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-cea40805-b741-4f01-82d7-765b6d143d9d"
+                >
+                  Add ability to mark all as done
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-cea40805-b741-4f01-82d7-765b6d143d9d"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+              id="list-item-1533a835-e41e-4792-815a-b26f2ee04f8f"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-1533a835-e41e-4792-815a-b26f2ee04f8f"
+              >
+                <label
+                  aria-label="Add ability to customize title"
+                  id="label-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                />
+                <input
+                  aria-label="Add ability to customize title"
+                  aria-labelledby="label-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                  id="checkbox-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-1533a835-e41e-4792-815a-b26f2ee04f8f"
+                >
+                  Add ability to customize title
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-1533a835-e41e-4792-815a-b26f2ee04f8f"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+              id="list-item-37577217-22de-4916-bda7-21f1b9317b57"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-37577217-22de-4916-bda7-21f1b9317b57"
+              >
+                <label
+                  aria-label="Add drag and drop feature"
+                  id="label-37577217-22de-4916-bda7-21f1b9317b57"
+                />
+                <input
+                  aria-label="Add drag and drop feature"
+                  aria-labelledby="label-37577217-22de-4916-bda7-21f1b9317b57"
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                  id="checkbox-37577217-22de-4916-bda7-21f1b9317b57"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-37577217-22de-4916-bda7-21f1b9317b57"
+                >
+                  Add drag and drop feature
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-37577217-22de-4916-bda7-21f1b9317b57"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+              id="list-item-ab8b4a12-d78c-400f-860a-f28127884bde"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-ab8b4a12-d78c-400f-860a-f28127884bde"
+              >
+                <label
+                  aria-label="Fix empty buttons and orphaned labels"
+                  id="label-ab8b4a12-d78c-400f-860a-f28127884bde"
+                />
+                <input
+                  aria-label="Fix empty buttons and orphaned labels"
+                  aria-labelledby="label-ab8b4a12-d78c-400f-860a-f28127884bde"
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                  id="checkbox-ab8b4a12-d78c-400f-860a-f28127884bde"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-ab8b4a12-d78c-400f-860a-f28127884bde"
+                >
+                  Fix empty buttons and orphaned labels
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-ab8b4a12-d78c-400f-860a-f28127884bde"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex w-full px-4 justify-between hover:bg-secondary-bg"
+              id="list-item-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+            >
+              <div
+                class="flex m-2"
+                id="checkbox-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+              >
+                <label
+                  aria-label="Add a share/print button"
+                  id="label-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                />
+                <input
+                  aria-label="Add a share/print button"
+                  aria-labelledby="label-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                  class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-light"
+                  id="checkbox-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                  type="checkbox"
+                />
+                <div
+                  class="cursor-pointer text-left text-wrap break-words"
+                  id="list-item-text-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+                >
+                  Add a share/print button
+                </div>
+              </div>
+              <div
+                class="items-end"
+                data-testid="delete-icon"
+                id="to-do-delete-0d06067b-885c-46d1-9cb1-2098f22ebb14"
+              >
+                <button
+                  class="bold text-xl"
+                  data-testid="delete-item-icon"
+                  id="delete-item-icon"
+                  name="delete-item-icon"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-circle-minus pt-2"
+                    data-icon="circle-minus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="text-left"
+      >
+        <div
+          class="flex"
+        >
+          <button
+            aria-label="add-new-icon"
+            class="text-2xl ml-4 m-2 pt-.5 pb-1 px-2 rounded font-bold"
+            data-testid="add-new-icon"
+            id="add-new-icon"
+            name="add-new-icon"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-circle-plus "
+              data-icon="circle-plus"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 344V280H168c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V168c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H280v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <h2
+            class="mt-3 italic cursor-pointer"
+            data-testid="add-new-text"
+          >
+            Add new item
+          </h2>
+        </div>
+      </div>
+      <div
+        class="w-full h-2 border-b-2 border-b-primary border-dashed mb-4"
+      />
+      <h2
+        class="text-left ml-6 flex justify-between"
+      >
+        COMPLETED
+        <button
+          aria-description="delete all completed list items"
+          data-testid="delete-all-checked-icon"
+          id="delete-all-checked-icon"
+          name="delete-all-checked-icon"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-trash-can text-delete-color"
+            data-icon="trash-can"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0H284.2c12.1 0 23.2 6.8 28.6 17.7L320 32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 96 0 81.7 0 64S14.3 32 32 32h96l7.2-14.3zM32 128H416V448c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V128zm96 64c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16z"
+              fill="currentColor"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-check-double text-delete-color ml-1"
+            data-icon="check-double"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M342.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 178.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l80 80c12.5 12.5 32.8 12.5 45.3 0l160-160zm96 128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 402.7 54.6 297.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l256-256z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </h2>
+      <ul>
+        <li>
+          <div
+            class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+            id="list-item-ffd77206-def4-48d6-9220-ad799e2a4e38"
+          >
+            <div
+              class="flex m-2"
+              id="checkbox-ffd77206-def4-48d6-9220-ad799e2a4e38"
+            >
+              <label
+                aria-label="Make a light and dark mode"
+                id="label-ffd77206-def4-48d6-9220-ad799e2a4e38"
+              />
+              <input
+                aria-label="Make a light and dark mode"
+                aria-labelledby="label-ffd77206-def4-48d6-9220-ad799e2a4e38"
+                checked=""
+                class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                id="checkbox-ffd77206-def4-48d6-9220-ad799e2a4e38"
+                type="checkbox"
+              />
+              <div
+                class="cursor-pointer text-left text-wrap break-words"
+                id="list-item-text-ffd77206-def4-48d6-9220-ad799e2a4e38"
+              >
+                Make a light and dark mode
+              </div>
+            </div>
+            <div
+              class="items-end"
+              data-testid="delete-icon"
+              id="to-do-delete-ffd77206-def4-48d6-9220-ad799e2a4e38"
+            >
+              <button
+                class="bold text-xl"
+                data-testid="delete-item-icon"
+                id="delete-item-icon"
+                name="delete-item-icon"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-circle-minus pt-2"
+                  data-icon="circle-minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+            id="list-item-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+          >
+            <div
+              class="flex m-2"
+              id="checkbox-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+            >
+              <label
+                aria-label="Begin todo app react demo"
+                id="label-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+              />
+              <input
+                aria-label="Begin todo app react demo"
+                aria-labelledby="label-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+                checked=""
+                class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                id="checkbox-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+                type="checkbox"
+              />
+              <div
+                class="cursor-pointer text-left text-wrap break-words"
+                id="list-item-text-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+              >
+                Begin todo app react demo
+              </div>
+            </div>
+            <div
+              class="items-end"
+              data-testid="delete-icon"
+              id="to-do-delete-ac0b7e09-8323-40b7-ba40-6f964a2bcb7f"
+            >
+              <button
+                class="bold text-xl"
+                data-testid="delete-item-icon"
+                id="delete-item-icon"
+                name="delete-item-icon"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-circle-minus pt-2"
+                  data-icon="circle-minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+            id="list-item-8010c35f-f429-4a99-9c8d-c10167e15550"
+          >
+            <div
+              class="flex m-2"
+              id="checkbox-8010c35f-f429-4a99-9c8d-c10167e15550"
+            >
+              <label
+                aria-label="Implement undo/redo function"
+                id="label-8010c35f-f429-4a99-9c8d-c10167e15550"
+              />
+              <input
+                aria-label="Implement undo/redo function"
+                aria-labelledby="label-8010c35f-f429-4a99-9c8d-c10167e15550"
+                checked=""
+                class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                id="checkbox-8010c35f-f429-4a99-9c8d-c10167e15550"
+                type="checkbox"
+              />
+              <div
+                class="cursor-pointer text-left text-wrap break-words"
+                id="list-item-text-8010c35f-f429-4a99-9c8d-c10167e15550"
+              >
+                Implement undo/redo function
+              </div>
+            </div>
+            <div
+              class="items-end"
+              data-testid="delete-icon"
+              id="to-do-delete-8010c35f-f429-4a99-9c8d-c10167e15550"
+            >
+              <button
+                class="bold text-xl"
+                data-testid="delete-item-icon"
+                id="delete-item-icon"
+                name="delete-item-icon"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-circle-minus pt-2"
+                  data-icon="circle-minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+            id="list-item-52f0a6e7-fa59-4762-b191-394661d2b915"
+          >
+            <div
+              class="flex m-2"
+              id="checkbox-52f0a6e7-fa59-4762-b191-394661d2b915"
+            >
+              <label
+                aria-label="Add functions for 'enter' keys"
+                id="label-52f0a6e7-fa59-4762-b191-394661d2b915"
+              />
+              <input
+                aria-label="Add functions for 'enter' keys"
+                aria-labelledby="label-52f0a6e7-fa59-4762-b191-394661d2b915"
+                checked=""
+                class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                id="checkbox-52f0a6e7-fa59-4762-b191-394661d2b915"
+                type="checkbox"
+              />
+              <div
+                class="cursor-pointer text-left text-wrap break-words"
+                id="list-item-text-52f0a6e7-fa59-4762-b191-394661d2b915"
+              >
+                Add functions for 'enter' keys
+              </div>
+            </div>
+            <div
+              class="items-end"
+              data-testid="delete-icon"
+              id="to-do-delete-52f0a6e7-fa59-4762-b191-394661d2b915"
+            >
+              <button
+                class="bold text-xl"
+                data-testid="delete-item-icon"
+                id="delete-item-icon"
+                name="delete-item-icon"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-circle-minus pt-2"
+                  data-icon="circle-minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+            id="list-item-f59dec40-1a44-49e5-ba02-9c8520e44210"
+          >
+            <div
+              class="flex m-2"
+              id="checkbox-f59dec40-1a44-49e5-ba02-9c8520e44210"
+            >
+              <label
+                aria-label="Check tab order"
+                id="label-f59dec40-1a44-49e5-ba02-9c8520e44210"
+              />
+              <input
+                aria-label="Check tab order"
+                aria-labelledby="label-f59dec40-1a44-49e5-ba02-9c8520e44210"
+                checked=""
+                class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                id="checkbox-f59dec40-1a44-49e5-ba02-9c8520e44210"
+                type="checkbox"
+              />
+              <div
+                class="cursor-pointer text-left text-wrap break-words"
+                id="list-item-text-f59dec40-1a44-49e5-ba02-9c8520e44210"
+              >
+                Check tab order
+              </div>
+            </div>
+            <div
+              class="items-end"
+              data-testid="delete-icon"
+              id="to-do-delete-f59dec40-1a44-49e5-ba02-9c8520e44210"
+            >
+              <button
+                class="bold text-xl"
+                data-testid="delete-item-icon"
+                id="delete-item-icon"
+                name="delete-item-icon"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-circle-minus pt-2"
+                  data-icon="circle-minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+            id="list-item-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+          >
+            <div
+              class="flex m-2"
+              id="checkbox-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+            >
+              <label
+                aria-label="Write unit tests for utils"
+                id="label-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+              />
+              <input
+                aria-label="Write unit tests for utils"
+                aria-labelledby="label-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+                checked=""
+                class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                id="checkbox-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+                type="checkbox"
+              />
+              <div
+                class="cursor-pointer text-left text-wrap break-words"
+                id="list-item-text-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+              >
+                Write unit tests for utils
+              </div>
+            </div>
+            <div
+              class="items-end"
+              data-testid="delete-icon"
+              id="to-do-delete-f36960d3-59d0-45ef-9edc-b8c37b49dc00"
+            >
+              <button
+                class="bold text-xl"
+                data-testid="delete-item-icon"
+                id="delete-item-icon"
+                name="delete-item-icon"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-circle-minus pt-2"
+                  data-icon="circle-minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+            id="list-item-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+          >
+            <div
+              class="flex m-2"
+              id="checkbox-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+            >
+              <label
+                aria-label="Add link for resume"
+                id="label-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+              />
+              <input
+                aria-label="Add link for resume"
+                aria-labelledby="label-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+                checked=""
+                class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                id="checkbox-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+                type="checkbox"
+              />
+              <div
+                class="cursor-pointer text-left text-wrap break-words"
+                id="list-item-text-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+              >
+                Add link for resume
+              </div>
+            </div>
+            <div
+              class="items-end"
+              data-testid="delete-icon"
+              id="to-do-delete-d96a7e1b-acbc-4306-8d28-70c30b67828b"
+            >
+              <button
+                class="bold text-xl"
+                data-testid="delete-item-icon"
+                id="delete-item-icon"
+                name="delete-item-icon"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-circle-minus pt-2"
+                  data-icon="circle-minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+            id="list-item-9207a974-c2b3-473c-89e3-433943fd2c10"
+          >
+            <div
+              class="flex m-2"
+              id="checkbox-9207a974-c2b3-473c-89e3-433943fd2c10"
+            >
+              <label
+                aria-label="Add link for cover letter"
+                id="label-9207a974-c2b3-473c-89e3-433943fd2c10"
+              />
+              <input
+                aria-label="Add link for cover letter"
+                aria-labelledby="label-9207a974-c2b3-473c-89e3-433943fd2c10"
+                checked=""
+                class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                id="checkbox-9207a974-c2b3-473c-89e3-433943fd2c10"
+                type="checkbox"
+              />
+              <div
+                class="cursor-pointer text-left text-wrap break-words"
+                id="list-item-text-9207a974-c2b3-473c-89e3-433943fd2c10"
+              >
+                Add link for cover letter
+              </div>
+            </div>
+            <div
+              class="items-end"
+              data-testid="delete-icon"
+              id="to-do-delete-9207a974-c2b3-473c-89e3-433943fd2c10"
+            >
+              <button
+                class="bold text-xl"
+                data-testid="delete-item-icon"
+                id="delete-item-icon"
+                name="delete-item-icon"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-circle-minus pt-2"
+                  data-icon="circle-minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="flex w-full px-4 justify-between hover:bg-secondary-bg line-through italic"
+            id="list-item-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+          >
+            <div
+              class="flex m-2"
+              id="checkbox-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+            >
+              <label
+                aria-label="Add link for recs"
+                id="label-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+              />
+              <input
+                aria-label="Add link for recs"
+                aria-labelledby="label-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+                checked=""
+                class="mr-2 w-[24px] h-[24px] min-w-[24px] min-h-[24px] font-bold"
+                id="checkbox-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+                type="checkbox"
+              />
+              <div
+                class="cursor-pointer text-left text-wrap break-words"
+                id="list-item-text-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+              >
+                Add link for recs
+              </div>
+            </div>
+            <div
+              class="items-end"
+              data-testid="delete-icon"
+              id="to-do-delete-3eb7c8d6-2850-4890-81e0-bdf65c718ca1"
+            >
+              <button
+                class="bold text-xl"
+                data-testid="delete-item-icon"
+                id="delete-item-icon"
+                name="delete-item-icon"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-circle-minus pt-2"
+                  data-icon="circle-minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232H328c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div
+        class="flex justify-between px-4 mt-8 text-2xl bg-white rounded-b-lg"
+      >
+        <button
+          class="cursor-default"
+          data-testid="undo-icon"
+          disabled=""
+          id="undo"
+          name="undo"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-rotate-left text-gray-500"
+            data-icon="rotate-left"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M48.5 224H40c-13.3 0-24-10.7-24-24V72c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2L98.6 96.6c87.6-86.5 228.7-86.2 315.8 1c87.5 87.5 87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3c-62.2-62.2-162.7-62.5-225.3-1L185 183c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8H48.5z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <button
+          class="cursor-default"
+          data-testid="redo-icon"
+          disabled=""
+          id="redo"
+          name="redo"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-rotate-right text-gray-500"
+            data-icon="rotate-right"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M463.5 224H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1c-87.5 87.5-87.5 229.3 0 316.8s229.3 87.5 316.8 0c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0c-62.5 62.5-163.8 62.5-226.3 0s-62.5-163.8 0-226.3c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
