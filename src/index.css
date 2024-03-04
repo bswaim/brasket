@@ -64,7 +64,7 @@ input, select { vertical-align: middle; }
 
 #page {
     background-size: 100%;
-    text-align:center;
+    /*text-align:center;*/
     color: var(--primary-text);
     background-color:var(--primary-bg);
     height: 100vh;
@@ -74,7 +74,7 @@ header {
     text-align:left;
 }
 
-a {
+/*a {
     color: var(--secondary-text);
     border-radius:5px 5px 0px 0px;
     text-decoration:underline;
@@ -86,7 +86,7 @@ a:hover {
     font-weight:600;
     background-color: lightblue;
     transition: all 0.2s ease-in 0s;
-}
+}*/
 
 p {
     font-size: 1.5em;
@@ -99,8 +99,15 @@ p {
     margin-bottom: 1rem;
 }
 
+#icons svg {
+  margin-right: 1rem;
+}
+
 @media screen and (max-width: 768px)
 {
+  #header-id div{
+    display: block;
+  }
   #page {
     margin: 10px;
   }
