@@ -2,29 +2,16 @@ import PropTypes from "prop-types";
 // import '../../css/molecule/link-previewer.css';
 
 export const LinkPreviewer = ({
-    linkToLiveDemo,
-    imageSrc,
-    id
+    imageSrc
 }) => {
     return (
-        <a
-            href={linkToLiveDemo}
-            className=""
-            id={id}
-        >
             <div className='demo-preview'>
                 <img
                     alt="To-do demo"
                     src={imageSrc}
+                    className='max-h-100 m-2 border-solid border-2 border-black rounded-2xl'
                 />
-               {/* <iframe
-                    width="500"
-                    height="315"
-                    className='responsive-iframe'
-                    src={linkToLiveDemo}>
-                </iframe>*/}
             </div>
-        </a>
     );
 };
 

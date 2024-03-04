@@ -5,13 +5,10 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload, faExternalLink, faFontAwesome} from "@fortawesome/free-solid-svg-icons";
 import {faCss3,  faGithubSquare, faHtml5, faJs, faLinkedin, faReact} from "@fortawesome/free-brands-svg-icons";
 import {DemoSection} from "./components/molecule/DemoSection";
+import {CHARITY_DEMO, CONTACT_FORM_DEMO, TO_DO_DEMO} from "./constants/constants";
 
 
 function App() {
-
-  // const [themeSelection, setThemeSelection] = useState(false);
-  // const theme = themeSelection ? 'dark-theme' : 'light-theme';
-
   return (
       <>
       <div className='bg-white h-full w-full p-4 text-left' data-testid='page' id='page'>
@@ -83,30 +80,58 @@ function App() {
                   </div>
               </div>
           </header>
-          <DemoSection
-              linkToLiveDemo='https://bswaim.github.io/demo'
-              linkToSourceCode='https://github.com/bswaim/demo' // todo: update this
-              thumbnailImage='https://bswaim.github.io/brasket/images/todo_thumbnail.png'
-              title="Classic To Do"
-          />
-        {/*  <DemoSection
-              linkToLiveDemo=""
-              linkToSourceCode=""
-              thumbnailPath=""
-              title="Financial Demo"
-          />
-          <DemoSection
-              linkToLiveDemo=""
-              linkToSourceCode=""
-              thumbnailPath=""
-              title="Meal Plan Demo"
-          />
-          <DemoSection
-              linkToLiveDemo=""
-              linkToSourceCode=""
-              thumbnailPath=""
-              title="Charity Page Demo"
-          />*/}
+          <ul>
+              {/* MEAL SERVICE */}
+              <li>
+                  <DemoSection
+                      linkToLiveDemo='https://bswaim.github.io/meal-plan-demo'
+                      linkToSourceCode='https://github.com/bswaim/meal-plan-demo'
+                      thumbnailImage='https://bswaim.github.io/brasket/Logo.png' // todo: update this once the demo is done
+                      title="Meal Delivery Plan Demo"
+                      id="meal-plan-preview"
+                  />
+              </li>
+              {/* FINANCIAL DATA */}
+              <li>
+                  <DemoSection
+                      linkToLiveDemo='https://bswaim.github.io/financial-demo'
+                      linkToSourceCode='https://github.com/bswaim/'
+                      thumbnailImage='https://bswaim.github.io/brasket/Logo.png' // todo: update this once the demo is done
+                      title="Finance Demo"
+                      id="meal-plan-preview"
+                  />
+              </li>
+              {/* CHARITY */}
+              <li>
+                  <DemoSection
+                      linkToLiveDemo={`https://bswaim.github.io/${CHARITY_DEMO}`}
+                      linkToSourceCode={`https://github.com/bswaim/${CHARITY_DEMO}`}
+                      thumbnailImage='https://bswaim.github.io/brasket/Logo.png' // todo: update this to ${CHARITY_DEMO}.png once the demo is done
+                      title="Charity Demo"
+                      id="charity-preview"
+                  />
+              </li>
+              {/* CONTACT FORM */}
+              <li>
+                  <DemoSection
+                      linkToLiveDemo={`https://bswaim.github.io/${CONTACT_FORM_DEMO}`}
+                      linkToSourceCode={`https://github.com/bswaim/${CONTACT_FORM_DEMO}`}
+                      thumbnailImage='https://bswaim.github.io/brasket/Logo.png' // todo: update this once the demo is done
+                      title="Contact Form Demo"
+                      id="contact-preview"
+                  />
+              </li>
+              {/* TO DO */}
+              <li>
+                  <DemoSection
+                      linkToLiveDemo={`https://bswaim.github.io/${TO_DO_DEMO}`}
+                      linkToSourceCode={`https://github.com/bswaim/${TO_DO_DEMO}`}
+                      thumbnailImage={`https://bswaim.github.io/brasket/thumbnails${TO_DO_DEMO}.png`}
+                      title="Classic To Do"
+                      id="todo-demo-preview"
+                  />
+              </li>
+          </ul>
       </div>
       </>
   );
