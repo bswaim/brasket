@@ -1,5 +1,5 @@
-export const MEAL_PLAN_DEMO = 'meal-plan-demo';
-export const FINANCIAL_DEMO = 'financial-demo';
-export const CHARITY_DEMO = 'charity-demo';
-export const CONTACT_FORM_DEMO = 'contact-form-demo';
-export const TO_DO_DEMO = 'to-do-demo';
+export const MEAL_PLAN_DEMO = 'demo-meal-plan';
+export const FINANCIAL_DEMO = 'demo-financial';
+export const CHARITY_DEMO = 'demo-charity';
+export const CONTACT_FORM_DEMO = 'demo-contact-form';
+export const TO_DO_DEMO = 'demo-to-do';
