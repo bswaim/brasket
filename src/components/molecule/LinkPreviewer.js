@@ -9,7 +9,7 @@ export const LinkPreviewer = ({
                 <img
                     alt="To-do demo"
                     src={imageSrc}
-                    className='max-h-100 m-2 border-solid border-2 border-black rounded-2xl'
+                    className='max-h-64 m-2 border-solid border-2 border-black rounded-2xl'
                 />
             </div>
     );
