@@ -126,7 +126,7 @@ function App() {
                   <DemoSection
                       linkToLiveDemo={`https://bswaim.github.io/${TO_DO_DEMO}`}
                       linkToSourceCode={`https://github.com/bswaim/${TO_DO_DEMO}`}
-                      thumbnailImage={`https://bswaim.github.io/brasket/thumbnails${TO_DO_DEMO}.png`}
+                      thumbnailImage={`https://bswaim.github.io/brasket/thumbnails/${TO_DO_DEMO}.png`}
                       title="Classic To Do"
                       id="todo-demo-preview"
                   />
